@@ -8,5 +8,14 @@
 
 import Foundation
 
-println("Hello, World!")
+var targetSum : TargetSum
+
+targetSum = TargetSum()
+
+var targetArray : [Int] = [5,4,7,1,10,2]
+var targetNumber : Int = 2
+var canBeAdded : Bool = targetSum.canMakeSum(targetArray, targetNumber: targetNumber)
+println(canBeAdded)
+
+
 
